@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    background-color: brown;
+    height: 100px;
+    
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: blue;
+    width: 50%;
+    height: 300px;
+}
+
+.palce {
+    border: none;
+    border-radius : 20px;
+    position: relative;
+    background-color: rgba(183, 197, 194, 0.664);
+    right: 20px;
+    height: 50px;
+    width: 230px;
+    position: sticky;
+    
+}
+
+.intro {
+    position: relative;
+
+
+}
